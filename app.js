@@ -20,10 +20,26 @@
 // console.log("new text edit ho gya hai");
 
 
-const fs = require("fs");
+// const fs = require("fs");
 
-const data = fs.readFileSync("sid.txt", "utf-8");
+// const data = fs.readFileSync("sid.txt", "utf-8");
 
-console.log(data);
+// console.log(data);
+// 
 
+// const fs =  require ("fs");
 
+// fs.writeFileSync ("sid.txt", "maine ye new test file banaya hai");
+
+// console.log ("file successfully ho gya hai");
+
+// const fs = require ("fs");
+
+// fs.appendFileSync ("sid.txt", "\n maine isme ek new line add lkiya hai");
+
+// console.log ("new line successfully add ho gyi hai");
+const fs = require ("fs");
+
+const data = fs.readFileSync ("sid.txt", "utf-8");
+
+console.log (data);
